@@ -22,9 +22,11 @@ namespace WcfClientProxy
         /// </summary>
         private readonly string _password;
 
-        public BasicAuthChannelFactoryProviderDecorator(IChannelFactoryProvider<TWcfServiceInterface> channelFactoryProvider)
+        public BasicAuthChannelFactoryProviderDecorator(IChannelFactoryProvider<TWcfServiceInterface> channelFactoryProvider, string userName, string password)
         {
             _channelFactoryProvider = channelFactoryProvider;
+            _userName = userName;
+            _password = password;
         }
 
         public ChannelFactory<TWcfServiceInterface> GetChannelFactory()

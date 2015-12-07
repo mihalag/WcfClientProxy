@@ -17,9 +17,10 @@ namespace WcfClientProxy
         /// </summary>
         private readonly TimeSpan _timeout;
 
-        public TimeoutChannelFactoryProviderDecorator(IChannelFactoryProvider<TWcfServiceInterface> channelFactoryProvider)
+        public TimeoutChannelFactoryProviderDecorator(IChannelFactoryProvider<TWcfServiceInterface> channelFactoryProvider, TimeSpan timeout)
         {
             _channelFactoryProvider = channelFactoryProvider;
+            _timeout = timeout;
         }
 
         public ChannelFactory<TWcfServiceInterface> GetChannelFactory()

@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfClientProxy", "WcfClientProxy\WcfClientProxy.csproj", "{7C7FA9CB-F8F3-40E9-87FD-E34EB5E5DFA4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfClientProxy.Autofac", "WcfClientProxy.Autofac\WcfClientProxy.Autofac.csproj", "{8C761503-6D8A-417D-8B38-E6AEE1634765}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfProxyClient.Autofac.Example", "WcfProxyClient.Autofac.Example\WcfProxyClient.Autofac.Example.csproj", "{4A6096B0-FD56-434C-89D7-5E54103A2967}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8C761503-6D8A-417D-8B38-E6AEE1634765}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C761503-6D8A-417D-8B38-E6AEE1634765}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C761503-6D8A-417D-8B38-E6AEE1634765}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A6096B0-FD56-434C-89D7-5E54103A2967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A6096B0-FD56-434C-89D7-5E54103A2967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A6096B0-FD56-434C-89D7-5E54103A2967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A6096B0-FD56-434C-89D7-5E54103A2967}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
